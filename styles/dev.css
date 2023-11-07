@@ -1,0 +1,68 @@
+.fundo {
+    background-image: url(/Harry/image/Desenvolvedores.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.frame {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu1 {
+    margin-right: 20px;
+}
+
+.menu2 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.frame1, .frame2 {
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.DevInfo {
+    font-weight: bold;
+}
+
+.Gui, .JP {
+    color: white;
+}

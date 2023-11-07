@@ -1,0 +1,93 @@
+.fundo {
+    background-image: url(/Harry/image/Casas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.frame {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu1 {
+    margin-right: 20px;
+}
+
+.menu2 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Gryffindor{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.Hufflepuff{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.Ravenclaw{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: white; 
+}
+.Slytherin{
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+.house__gryffindor {
+    color: red; 
+}
+.house__hufflepuff {
+    color: yellow;
+}
+.house__ravenclaw{
+    color: blue;
+}
+.house__slytherin{
+    color: green;
+}
+.text {
+    color: white;
+}
