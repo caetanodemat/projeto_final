@@ -1,5 +1,5 @@
 .fundo {
-    background-image: url(/Harry/image/Personagens.jpg);
+    background-image: url(/Index.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: repeat;
@@ -11,7 +11,8 @@
     margin: 0;
 }
 
-.frame {
+
+header{
     background-color: rgba(0, 0, 0, 0.35);
     display: flex;
     justify-content: space-between;
@@ -21,35 +22,38 @@
     position: fixed;
     top: 0;
     z-index: 1000;
+
 }
 
-.menu {
+.menu{
     list-style: none;
     padding: 0;
     display: flex;
+
 }
 
 .menu1 {
-    margin-right: 20px;
+display: inline; 
+margin-right: 20px; 
 }
+
 
 .menu2 {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+text-decoration: none; 
+color: white; 
+font-weight: bold; 
 }
 
-.personagem {
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.52);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 20px;
-    color: white;
-    text-align: justify;
-}
+/*H1*/
 
-.cor {
-    color: red;
-    text-decoration: none;
-}
+.style{
+    font-size: 60px;
+    color: #daa520;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+
